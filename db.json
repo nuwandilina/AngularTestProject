@@ -1,0 +1,65 @@
+{
+  "productList": [
+    {
+      "productName": "Apple",
+      "category": "fruits",
+      "freshness": "Brand New",
+      "price": 3500,
+      "comments": "This is fresh apples",
+      "date": "2022-07-02T18:30:00.000Z",
+      "id": 1
+    },
+    {
+      "productName": "Ladies Fingers",
+      "category": "vegitables",
+      "freshness": "Brand New",
+      "price": 400,
+      "comments": "This fresh as farm fresh",
+      "date": "2022-07-04T18:30:00.000Z",
+      "id": 2
+    },
+    {
+      "productName": "Samsung A51",
+      "category": "Electronics",
+      "freshness": "Brand New",
+      "price": 65800,
+      "comments": "6GB 128 GB",
+      "date": "2022-07-19T18:30:00.000Z",
+      "id": 3
+    },
+    {
+      "productName": "Mack Book",
+      "category": "Electronics",
+      "freshness": "Second Hand",
+      "price": 47850.25,
+      "comments": "Used",
+      "date": "2016-01-03T18:30:00.000Z",
+      "id": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryCode": "C001",
+      "categoryName": "Vegitable"
+    },
+    {
+      "id": 2,
+      "categoryCode": "C002",
+      "categoryName": "Fruit"
+    },
+    {
+      "id": 3,
+      "categoryCode": "C003",
+      "categoryName": "Electronics"
+    },
+    {
+      "categoryCode": "C004",
+      "categoryName": "Mobile Devices",
+      "id": 4
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

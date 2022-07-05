@@ -1,0 +1,24 @@
+<h1 mat-dialog-title>Add new category</h1>
+<div mat-dialog-content>
+    <form [formGroup]="categoryForm">
+
+        <mat-form-field appearance="fill">
+            <mat-label>Catecory Code</mat-label>
+            <input formControlName="categoryCode" matInput placeholder="category code here"/>
+            <mat-icon matSuffix>event_available</mat-icon>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+            <mat-label>Category Name</mat-label>
+            <input formControlName="categoryName" matInput placeholder="category name here"/>
+            <mat-icon matSuffix>event_note</mat-icon>
+        </mat-form-field>
+
+    </form>
+
+</div>
+
+<div mat-dialog-actions [align]="'end'">
+    <button mat-raised-button color="{{actionButtonColor}}" (click)="addCategory()">{{actionButtonName}}</button>
+    <button mat-raised-button color="warn" mat-dialog-close>Close</button>
+</div>
